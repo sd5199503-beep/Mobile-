@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Number Tracker UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tracker-container">
+        <h2>Mobile Number Tracker</h2>
+        <p>Enter a mobile number to find its location and carrier details.</p>
+        
+        <div class="search-box">
+            <input type="tel" id="phone-input" placeholder="e.g. +1 234 567 8900" required>
+            <button id="search-btn">Track Phone</button>
+        </div>
+
+        <!-- Placeholder for Results (Populated via JS in a real app) -->
+        <div class="result-card" id="result-box">
+            <h3>Track Result</h3>
+            <div class="result-item"><strong>Status:</strong> <span class="status-active">Active</span></div>
+            <div class="result-item"><strong>Carrier:</strong> Telecom Network</div>
+            <div class="result-item"><strong>Location:</strong> California, USA</div>
+            <div class="result-item"><strong>Signal:</strong> Strong</div>
+        </div>
+    </div>
+
+</body>
+</html>
